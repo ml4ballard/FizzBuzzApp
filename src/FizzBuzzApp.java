@@ -3,11 +3,10 @@ public class FizzBuzzApp {
 	
 	public static void main(String[] args) {
 	
-//	int index = 1;
 	for (int index=1; index < 100; index++)
 	{
-		   int threemod = index % 3;
-		   int fivemod = index % 5;
+	   int threemod = index % 3;
+	   int fivemod = index % 5;
 		   
 	   if (threemod == 0 && fivemod == 0){
          System.out.println("FizzBuzz");  
